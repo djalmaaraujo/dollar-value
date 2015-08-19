@@ -6,6 +6,10 @@
    "permissions": [
     "https://*.paypal.com/"
    ],
+  "icons": { "16": "assets/images/icon16.png",
+         "32": "assets/images/icon32.png",
+         "48": "assets/images/icon48.png",
+        "128": "assets/images/icon128.png" },
   "content_security_policy": "script-src 'self' https://*.paypal.com/ http://localhost http://127.0.0.1; object-src 'self'",
   "content_scripts": [
     {
