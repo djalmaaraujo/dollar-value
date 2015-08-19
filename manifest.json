@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Paypal Dollar BRL",
+  "description": "",
+  "version": "0.0.1",
+   "permissions": [
+    "https://*.paypal.com/"
+   ],
+  "content_security_policy": "script-src 'self' https://*.paypal.com/ http://localhost http://127.0.0.1; object-src 'self'",
+  "content_scripts": [
+    {
+      "matches": ["https://www.paypal.com/*"],
+      "js": ["src/dollar-value.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
