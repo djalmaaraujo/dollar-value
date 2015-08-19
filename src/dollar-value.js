@@ -26,9 +26,15 @@ var PaypalBRL = {
   output: function () {
     var label = document.querySelector('.balanceNumeral .numeralLabel');
     label.innerHTML = "1 USD = <strong>R$" + this.calc() + ' BRL</strong>';
+  },
+
+  isHome: function () {
+    return (location.pathname.split('/')[1] === "myaccount");
   }
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-  PaypalBRL.output();
+  if (PaypalBRL.isHome()) {
+    PaypalBRL.output();
+  }
 }, false);
