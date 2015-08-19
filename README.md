@@ -8,3 +8,17 @@ Com o layout novo do paypal, agora fica chato fazer as contas, hehe. O dollar va
 
 ## Download
 [Click Here](https://github.com/djalmaaraujo/dollar-value/releases/download/0.0.1/dollar-value.zip)
+
+## Installation
+
+* Unzip the content in a folder that you won't delete;
+* Type ```chrome://extensions/``` in the browser;
+* Click in ```Load unpacked extension...```;
+* Select the folder
+* Refresh your paypal home
+
+## License
+
+[MIT License](http://djalmaarajo.mit-license.org/) © Djalma Araújo
+
+---------------------------
