@@ -7,3 +7,4 @@ Com o layout novo do paypal, agora fica chato fazer as contas, hehe. O dollar va
 
 
 ## Download
+[Click Here](https://github.com/djalmaaraujo/dollar-value/releases/download/0.0.1/dollar-value.zip)
