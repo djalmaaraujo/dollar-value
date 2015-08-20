@@ -5,7 +5,7 @@ Com o layout novo do paypal, agora fica chato fazer as contas, hehe. O dollar va
 **Atenção:** Sua moeda principal da conta precisa ser BRL para que esta extensão funcione.
 
 ## Screenshot
-![image](https://raw.githubusercontent.com/djalmaaraujo/dollar-value/master/preview.png)
+![image](https://raw.githubusercontent.com/djalmaaraujo/dollar-value/master/preview_dollar.png)
 
 
 ## Download
